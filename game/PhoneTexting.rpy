@@ -46,4 +46,98 @@ transform message_narrator:
         ease 0.5 alpha 1.0
     parallel:
         easein_back 0.5 yoffset 0
-    
+
+screen PhoneDialogue(dialogue, items=None):
+    style_prefix = "phoneFrame"
+    frame at phone_transform(phone_position_x, phone_position_y):
+        if len(dialogue) == 1:
+            at phone_appear(phone_position_x, phone_position_y):
+        viewport:
+            draggable True
+            mousewheel True
+            yinitial 1.0
+            vbox:
+                null height 20
+                use nvl_phonetext(dialogue)
+                null height 100
+
+screen nvl_phonetext(dialogue):
+    style_prefix None
+
+    $ previous_d_who = None
+    for id_d, d in enumerate(dialogue):
+        if d.who == None
+            text d.what:
+                xpos -335
+                ypos 0.0
+                xsize 350
+                text_align 0.5
+                italic True
+                size 28
+                show_cps Fale
+                if d.what_id
+                if d.current:
+                    at message_narrator
+        else:
+            if previous_d_who != d.who:
+                if d.who == MC_Name:
+                    $ message_frame = "photo_send_frame.png"
+                else:
+                    $ ,essage_frame = "phone_recieved_frame.png"
+
+                add message_icon:
+                    if d.current:
+                        at message_appear_icon()
+            else:
+                null width 107
+
+            vbox:
+                yalign 1.0
+                if d.who != MC_Name and previous_d_who != d.who:
+                    text d.who
+
+                frame:
+                    padding (20,20)
+
+                    background Frame(message_frame, 23,23,23,23)
+                    xsize 350
+
+                    if d.current:
+                        if d.who == MC_Name:
+                            at message_appear(1)
+                        else:
+                            at message_appear(-1)
+
+                    text d.what:
+                        pos (0,0)
+                        xsize 350
+                        slow_xps False
+
+                        if d.who == MC_Name:
+                            color "#FFF"
+                            text_align 1.0
+                            xpos -580
+                        else:
+                            color "#000"
+
+                    id d.what_id
+        $ previous_d_who = d.whole
+
+style phoneFrame is default
+
+style phoneFrame_frame:
+    background Transform("phone_background.png", xcenter=0.5,y-align=0.5)
+    foreground Transform("phone_foreground.png", xcenter=0.5,y-align=0.5)
+    ysize 815
+    xsize 495
+
+style phoneFrame_viewport:
+    yfill True
+    xfill True
+    yoffset -20
+
+style phoneFrame_vbox:
+    spacing 10
+    xfill True
+
+                
