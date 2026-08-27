@@ -3,7 +3,7 @@
     scene bg black
     with fade
 
-    play music "audio/school_theme.ogg" fadein 2.0
+    call screen chapter_title("01", "Something wicked")
 
     pause 1.0
 
@@ -134,4 +134,4 @@
     scene bg black
     with fade
 
-    return
+    jump chapter_2
