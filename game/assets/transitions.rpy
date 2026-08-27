@@ -30,3 +30,16 @@ screen chapter_title(number, title):
             color "#9d7185"
 
     timer 3.5 action Return
+
+define nvl_mode = "phone"
+define MC_Name = "Me"
+
+define mina_nvl = Character(
+    "Mina",
+    kind=nvl
+)
+
+define mc_nvl = Character(
+    "Me",
+    kind=nvl
+)
