@@ -23,24 +23,49 @@ label chapter_2:
 
     # starting the phone texts here
 
+    $ nvl_mode = "phone"
     nvl_narrator "Mina started a conversation."
     mina_nvl "Good morning, corpse."
     mc_nvl "It's too early."
     mina_nvl "It's 7:31."
     mc_nvl "Exactly."
-    mina_nvl "You have school."
-    mc_nvl "Unfortunately."
-    mina_nvl "And today is Halloween."
-    mc_nvl "Unfortunately."
-    mina_nvl "You sound excited."
-    mc_nvl "I am."
-    mina_nvl "Liar."
-    mc_nvl "How do you know?"
-    mina_nvl "Because I know you."
-    mc_nvl "That's creepy."
-    mina_nvl "You said that yesterday."
-    mc_nvl "And I'll say it tomorrow."
+    mina_nvl "You're coming, right?"
+    mc_nvl "Coming where?"
+    mina_nvl "School."
+    mc_nvl "Obviously."
     mina_nvl "Good."
-    mina_nvl "Don't forget your costume."
+    mc_nvl "Why wouldn't I?"
+    mina_nvl "You forgot yesterday."
+    mc_ncl "I did not."
+    mina_nvl "You did."
+    mc_nvl "What did I forget?"
+    mina_nvl "Halloween."
+    mc_nvl "Oh."
+    mina_nvl "Exactly."
+    mc_nvl "It's just Halloween."
+    mina_nvl "We're student council presidents."
+    mc_nvl "Unfortunately."
+    mina_nvl "Which means..."
+    mc_nvl "We have to organize everything."
+    mina_nvl "Yup."
+    mc_nvl "I hate this."
+    mina_nvl "See you soon ♡"
+
+    narrator "I stare at the last message."
+    narrator "She's right."
+    narrator "Being student council president sounded impressive when we were elected."
+    narrator "Now it mostly means paperwork."
+    narrator "And cleaning."
+    narrator "Especially on Halloween."
+
+    nvl clear
+
+    scene bg School
+    with dissolve
+
+    narrator "By the time I reach school, the rain has stopped."
+    narrator "The courtyard is covered in puddles."
+    narrator "Orange leaves cling to the pavement."
+    narrator "Halloween decorations hand from every tree."
 
     return
