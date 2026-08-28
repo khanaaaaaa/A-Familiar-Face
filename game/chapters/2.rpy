@@ -149,4 +149,36 @@ label chapter_2:
     narrator "I follow."
     narrator "Neither of us notices the auditorium door slowly closing behind us."
 
-    return
+    menu:
+        "Follow Mina into the audtorium.":
+            mc "Fine, let's go."
+            mina "Good."
+            narrator "She smiles again."
+            narrator "I wish she hadn't."
+        
+        "Ask Mina what's wrong.":
+            mc "Mina."
+            mina "Hm?"
+            mc "What's bothering you?"
+            narrator "She stops."
+            mina "I heard someone calling my name."
+            mc "From inside?"
+            mina "No."
+            mina "From behind me."
+            narrator "I look back."
+            narrator "The hallway is empty."
+            mina "Forget it."
+            jump chapter_3
+
+        "Suggest we get another student.":
+            mc "Shouldn't we get someone else?"
+            mina "Why?"
+            mc "Because this is creepy."
+            mina "You're scared?"
+            mc "I'm being reasonable."
+            mina "Then stay here."
+            narrator "She walks toward the auditorium alone."
+            mc "Mina, wait."
+            narrator "I follow her."
+            
+    jump chapter_3

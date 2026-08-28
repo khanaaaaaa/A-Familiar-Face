@@ -83,6 +83,24 @@
     
     mina "I have plans."
 
+    menu:
+        "Ask her what her plans are":
+            mc "Okay, now I'm curious."
+            mina "Good."
+            mc "So?"
+            mina "Nope."
+            mc "You can't just say you have plans and refuse to explain."
+            mina "I can, and I just did."
+
+        "Guess what she has planned":
+            mc "Let me guess."
+            mc "You're dragging me into some stupis Halloween activity."
+            mina "Maybe."
+            mc "The haunted house?"
+            mina "Maybe."
+            mc "Mina."
+            mina "You'll see."
+
     mc "That sentence never ended well."
 
     mina "You'll see."
