@@ -67,5 +67,86 @@ label chapter_2:
     narrator "The courtyard is covered in puddles."
     narrator "Orange leaves cling to the pavement."
     narrator "Halloween decorations hand from every tree."
+    narrator "A giant paper moon hangs over the entrance."
+    narrator "Mina is already there."
+
+    mina "You're late."
+
+    mc "Good morning to you too."
+
+    mina "We have a problem."
+
+    mc "What now?"
+
+    mina "The haunted house."
+
+    mc "What about it?"
+
+    mina "Someone moved the decorations."
+
+    mc "Probably the volunteers."
+
+    mina "No."
+
+    mc "How do you know?"
+
+    mina "Because I locked the room."
+
+    mc "..."
+
+    mina "And I still have the key."
+
+    mc "Okay."
+    mc "That's weird."
+
+    mina "A little."
+
+    mc "Maybe someone made a copy."
+
+    mina "Maybe."
+
+    narrator "She smiles."
+
+    mina "Come on, President."
+
+    mc "Don't call me that."
+
+    mina "Why?"
+
+    mc "It makes me feel old."
+
+    mina "We're seniors."
+
+    mc "Exactly."
+
+    mina "You're dramatic."
+
+    mc "You're annoying."
+
+    mina "And yet.."
+
+    mc "Don't."
+
+    mina "You'd miss me."
+
+    mc "Unfortunately."
+
+    narrator "She laughs."
+    narrator "Then she looks toward the old auditorium."
+    narrator "Her smile disappears."
+
+    mina "Let's go."
+
+    mc "Why?"
+
+    mina "I want to check something."
+
+    mc "What?"
+
+    mina "I'll tell you inside."
+
+    narrator "She starts walking."
+    narrator "I follow."
+    narrator "Neither of us notices the auditorium door slowly closing behind us."
 
     return
