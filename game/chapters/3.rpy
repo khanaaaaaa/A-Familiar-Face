@@ -2,7 +2,7 @@ label chapter_3:
 
     call screen chapter_title("03", "The Girl in the Photograph")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0
@@ -72,7 +72,7 @@ label chapter_3:
     narrator "I take a step closer anyway."
     narrator "Something is carved into the bottom of the stone."
     hide minjuneutralquiet
-    scene bg black
+    scene black
     mc "Minju.."
     narrator "I wipe away the dust."
     centered "{size=30}YOU PROMISED{/size}"

@@ -2,7 +2,7 @@ label chapter_2:
 
     call screen chapter_title("02", "Trick Or Treat")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0

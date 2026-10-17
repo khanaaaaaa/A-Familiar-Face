@@ -2,7 +2,7 @@ label ending_together:
 
     call screen chapter_title("05", "We Go Back")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0
@@ -25,7 +25,7 @@ label ending_together:
     mc "Obviously."
     narrator "She laughs."
     
-    scene bg black
+    scene black
     with fade
 
     pause 1.5
@@ -40,7 +40,7 @@ label ending_apart:
 
     call screen chapter_title("05", "Some Things Stay")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0
@@ -65,7 +65,7 @@ label ending_apart:
     narrator "Some things don't get ressolved."
     narrator "They just get carried."
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.5
@@ -80,7 +80,7 @@ label ending_peace:
 
     call screen chapter_title("05", "Enough")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0

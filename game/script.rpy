@@ -1,6 +1,6 @@
 ﻿label start:
 
-    scene bg black
+    scene black
     with fade
 
     call screen chapter_title("01", "Something wicked")
@@ -213,8 +213,5 @@
     narrator "A Halloween flyer."
     narrator "Across the top, written in red ink:"
     "{i}HAUNTED HOUSE - DON'T GO ALONE.{/i}"
-
-    scene bg black
-    with fade
 
     jump chapter_2

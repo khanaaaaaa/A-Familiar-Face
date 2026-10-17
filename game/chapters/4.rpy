@@ -1,7 +1,7 @@
 label chapter_four:
     call screen chapter_title("04", "What She Knew")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0
@@ -52,7 +52,7 @@ label chapter_four:
 
     menu:
         "We should go back in.":
-            scene bg black
+            scene black
             $ minju_affection += 1
             mc "We should go back."
             minju "..."
@@ -61,7 +61,7 @@ label chapter_four:
             jump ending_together
 
         "Leave it alone":
-            scene bg black
+            scene black
             mc "Maybe leave it alone."
             minju "..."
             minju "Maybe."
@@ -70,7 +70,7 @@ label chapter_four:
             jump ending_apart
 
         "Ask if she's okay.":
-            scene bg black
+            scene black
             mc "Are you okay?"
             minju "No."
             minju "But I will be."
