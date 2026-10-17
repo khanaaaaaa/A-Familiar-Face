@@ -22,6 +22,14 @@ As you can probably tell, I love to think about stories and start a RenPy visual
 
 The Phone Texting thing made me shed a few tears lowk, I learnt to finish my RENPY stories T-T Also I really need to practice NVL. The characters were two girls at first but had guy sprites so decided to change the genders. Regardless, was fun reading back on my writing (cringing).
 
+# Art Credits
+
+None of the caracter art in this project belongs to me.
+
+All character sprites were created using a picrew by wawawa_o_o_ on X. Picrew link: https://picrew.me/en/image_maker/2308695
+
+Background images were sourced externally and are not original assets.
+
 # Screenshots
 
 ![alt text](image.png)
