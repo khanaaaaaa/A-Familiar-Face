@@ -24,32 +24,32 @@ label chapter_2:
     # starting the phone texts here
 
     $ nvl_mode = "phone"
-    nvl_narrator "Mina started a conversation."
-    mina_nvl "Good morning, corpse."
+    nvl_narrator "minju started a conversation."
+    minju_nvl "Good morning, corpse."
     mc_nvl "It's too early."
-    mina_nvl "It's 7:31."
+    minju_nvl "It's 7:31."
     mc_nvl "Exactly."
-    mina_nvl "You're coming, right?"
+    minju_nvl "You're coming, right?"
     mc_nvl "Coming where?"
-    mina_nvl "School."
+    minju_nvl "School."
     mc_nvl "Obviously."
-    mina_nvl "Good."
+    minju_nvl "Good."
     mc_nvl "Why wouldn't I?"
-    mina_nvl "You forgot yesterday."
+    minju_nvl "You forgot yesterday."
     mc_ncl "I did not."
-    mina_nvl "You did."
+    minju_nvl "You did."
     mc_nvl "What did I forget?"
-    mina_nvl "Halloween."
+    minju_nvl "Halloween."
     mc_nvl "Oh."
-    mina_nvl "Exactly."
+    minju_nvl "Exactly."
     mc_nvl "It's just Halloween."
-    mina_nvl "We're student council presidents."
+    minju_nvl "We're student council presidents."
     mc_nvl "Unfortunately."
-    mina_nvl "Which means..."
+    minju_nvl "Which means..."
     mc_nvl "We have to organize everything."
-    mina_nvl "Yup."
+    minju_nvl "Yup."
     mc_nvl "I hate this."
-    mina_nvl "See you soon ♡"
+    minju_nvl "See you soon ♡"
 
     narrator "I stare at the last message."
     narrator "She's right."
@@ -68,66 +68,66 @@ label chapter_2:
     narrator "Orange leaves cling to the pavement."
     narrator "Halloween decorations hand from every tree."
     narrator "A giant paper moon hangs over the entrance."
-    narrator "Mina is already there."
+    narrator "minju is already there."
 
-    mina "You're late."
+    minju "You're late."
 
     mc "Good morning to you too."
 
-    mina "We have a problem."
+    minju "We have a problem."
 
     mc "What now?"
 
-    mina "The haunted house."
+    minju "The haunted house."
 
     mc "What about it?"
 
-    mina "Someone moved the decorations."
+    minju "Someone moved the decorations."
 
     mc "Probably the volunteers."
 
-    mina "No."
+    minju "No."
 
     mc "How do you know?"
 
-    mina "Because I locked the room."
+    minju "Because I locked the room."
 
     mc "..."
 
-    mina "And I still have the key."
+    minju "And I still have the key."
 
     mc "Okay."
     mc "That's weird."
 
-    mina "A little."
+    minju "A little."
 
     mc "Maybe someone made a copy."
 
-    mina "Maybe."
+    minju "Maybe."
 
     narrator "She smiles."
 
-    mina "Come on, President."
+    minju "Come on, President."
 
     mc "Don't call me that."
 
-    mina "Why?"
+    minju "Why?"
 
     mc "It makes me feel old."
 
-    mina "We're seniors."
+    minju "We're seniors."
 
     mc "Exactly."
 
-    mina "You're dramatic."
+    minju "You're dramatic."
 
     mc "You're annoying."
 
-    mina "And yet.."
+    minju "And yet.."
 
     mc "Don't."
 
-    mina "You'd miss me."
+    minju "You'd miss me."
 
     mc "Unfortunately."
 
@@ -135,50 +135,50 @@ label chapter_2:
     narrator "Then she looks toward the old auditorium."
     narrator "Her smile disappears."
 
-    mina "Let's go."
+    minju "Let's go."
 
     mc "Why?"
 
-    mina "I want to check something."
+    minju "I want to check something."
 
     mc "What?"
 
-    mina "I'll tell you inside."
+    minju "I'll tell you inside."
 
     narrator "She starts walking."
     narrator "I follow."
     narrator "Neither of us notices the auditorium door slowly closing behind us."
 
     menu:
-        "Follow Mina into the audtorium.":
+        "Follow minju into the audtorium.":
             mc "Fine, let's go."
-            mina "Good."
+            minju "Good."
             narrator "She smiles again."
             narrator "I wish she hadn't."
         
-        "Ask Mina what's wrong.":
-            mc "Mina."
-            mina "Hm?"
+        "Ask minju what's wrong.":
+            mc "minju."
+            minju "Hm?"
             mc "What's bothering you?"
             narrator "She stops."
-            mina "I heard someone calling my name."
+            minju "I heard someone calling my name."
             mc "From inside?"
-            mina "No."
-            mina "From behind me."
+            minju "No."
+            minju "From behind me."
             narrator "I look back."
             narrator "The hallway is empty."
-            mina "Forget it."
+            minju "Forget it."
             jump chapter_3
 
         "Suggest we get another student.":
             mc "Shouldn't we get someone else?"
-            mina "Why?"
+            minju "Why?"
             mc "Because this is creepy."
-            mina "You're scared?"
+            minju "You're scared?"
             mc "I'm being reasonable."
-            mina "Then stay here."
+            minju "Then stay here."
             narrator "She walks toward the auditorium alone."
-            mc "Mina, wait."
+            mc "minju, wait."
             narrator "I follow her."
             
     jump chapter_3

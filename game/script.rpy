@@ -14,134 +14,199 @@
     "Students chatter around you."
     "Footsteps echo through the courtyard."
 
+    show mcsmiletalk at center_char
     mc "People always say first day of your final year is supposed to feel different."
     mc "Like you're supposed to suddenly realize you're growing up."
     mc "Honestly?"
     mc "I just wanted to go to sleep."
-
-    mina "You are SO dramatic."
-
+    hide mcsmiletalk
+    show minjusmiletalk at center_char
+    minju "You are SO dramatic."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "Good evening to you too."
-
-    mina "I brought you something."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "I brought you something."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "For me?"
-
-    mina "Obviously."
-
-    mc "How did you know I wanted this?"
-
-    mina "Because you've ordered the same thing for three years."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Obviously."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
+    mc "How did you know I wanted this keychain?"
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Because you've ordered the same thing for three years."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "That's kind of creepy."
-
-    mina "That's called being your best friend."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "That's called being your best friend."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "That's exactly what a creepy person pretending to be my best friend would say."
-
-    mina "Wow."
-    mina "And on Halloween, too."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Wow."
+    minju "And on Halloween, too."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "It's not Halloween yet."
-
-    mina "Close enough."
-
-    "Mina holds out a small pumpkin-shaped candy."
-
-    mina "Here."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Close enough."
+    "Minju holds out a small pumpkin-shaped candy."
+    minju "Here."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "What's this?"
-
-    mina "A peace offering."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "A peace offering."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "For what?"
-
-    mina "For all the terrible things I'm going to make you do today."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "For all the terrible things I'm going to make you do today."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "That sounds threatening."
-
-    mina "It's Halloween/"
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "It's Halloween!"
+    hide minjusmiletalk 
+    show minjusmilequiet at center_char
     mc "That's not an excuse."
-
-    mina "It absolutely is."
-
-    narrator "I take the candy from her."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "It absolutely is."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
+    narrator "I take the candy from him."
     mc "Thanks."
-
-    mina "You're welcome."
-
-    "She smiles."
-    "For some reason, she looks unusually happy today."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "You're welcome."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
+    "He smiles."
+    "For some reason, he looks unusually happy today."
     mc "Why are you smiling like that?"
-
-    mina "Because."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Because."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "Because what?"
-    
-    mina "I have plans."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "I have plans."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     menu:
         "Ask her what her plans are":
             mc "Okay, now I'm curious."
-            mina "Good."
+            hide minjusmilequiet
+            show minjusmiletalk at center_char
+            minju "Good."
+            hide minjusmiletalk
+            show minjusmilequiet at center_char
             mc "So?"
-            mina "Nope."
+            hide minjusmilequiet
+            show minjusmiletalk at center_char
+            minju "Nope."
+            hide minjusmiletalk
+            show minjusmilequiet at center_char
             mc "You can't just say you have plans and refuse to explain."
-            mina "I can, and I just did."
+            hide minjusmilequiet
+            show minjusmiletalk at center_char
+            minju "I can, and I just did."
+            hide minjusmiletalk
+            show minjusmilequiet at center_char
 
         "Guess what she has planned":
             mc "Let me guess."
             mc "You're dragging me into some stupis Halloween activity."
-            mina "Maybe."
+            hide minjusmilequiet
+            show minjusmiletalk at center_char
+            minju "Maybe."
+            hide minjusmiletalk
+            show minjusmilequiet at center_char
             mc "The haunted house?"
-            mina "Maybe."
-            mc "Mina."
-            mina "You'll see."
+            hide minjusmilequiet
+            show minjusmiletalk at center_char
+            minju "Maybe."
+            hide minjusmiletalk
+            show minjusmilequiet at center_char
+            mc "minju."
+            hide minjusmilequiet
+            show minjusmiletalk at center
+            minju "You'll see."
+            hide minjusmiletalk
+            show minjusmilequiet at center_char
 
     mc "That sentence never ended well."
-
-    mina "You'll see."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "You'll see."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     "A cold breeze passes through the courtyard."
     "Somewhere nearby, a Halloween decoration creeks against a window."
-
     mc "Okay.."
     mc "Why did that sound like whispering?"
-
-    mina "Probably a ghost."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Probably a ghost."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "Very funny."
-
-    mina "I'm serious."
-
-    mc "Mina."
-
-    mina "What?"
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "I'm serious."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
+    mc "minju."
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "What?"
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "Don't start."
-
-    mina "Fine, fine."
-
-    narrator "She laughs."
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Fine, fine."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
+    narrator "He laughs."
     narrator "The school bell rings again."
-
-    mina "Come on."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Come on."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "Where?"
-
-    mina "Class."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "Class."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "Right."
-
-    mina "And after school..."
-
+    hide minjusmilequiet 
+    show minjusmiletalk at center_char
+    minju "And after school..."
+    hide minjusmiletalk
+    show minjusmilequiet at center_char
     mc "What?"
-
-    mina "You'll see."
-
+    hide minjusmilequiet
+    show minjusmiletalk at center_char
+    minju "You'll see."
+    hide minjusmiletalk
     narrator "She walks ahead."
     narrator "I followe her."
     narrator "I don't notice the small piece of paper lying where she was standing."

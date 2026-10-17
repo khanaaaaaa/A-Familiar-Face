@@ -16,27 +16,27 @@ label chapter_3:
     narrator "Now there is only the sound of rain against the windows."
     narrator "And the faint hum of the lights."
 
-    mina "They're all gone."
+    minju "They're all gone."
 
     mc "Obviously."
 
-    mina "I mean.."
+    minju "I mean.."
 
     narrator "She looks around."
 
-    mina "They left in a hurry."
+    minju "They left in a hurry."
 
     mc "Maybe everyoe was tired."
 
-    mina "Maybe."
+    minju "Maybe."
 
     narrator "I look at the decorations."
     narrator "Everything looks exactly as we left it."
     narrator "Except for one thing."
 
-    mc "Mina."
+    mc "minju."
 
-    mina "Hm?"
+    minju "Hm?"
 
     mc "Look."
 
@@ -44,23 +44,23 @@ label chapter_3:
 
     mc "Didn't we knock this over."
 
-    mina "Yeah."
+    minju "Yeah."
 
     mc "And nobody came back in."
 
-    mina "..."
+    minju "..."
 
     mc "Right?"
 
-    mina "Right."
+    minju "Right."
 
     narrator "She walks toward it."
 
-    mina "Don't touch it."
+    minju "Don't touch it."
 
     mc "Why?"
 
-    mina "Because I said so."
+    minju "Because I said so."
 
     narrator "She sounds annoyed."
 
@@ -69,7 +69,7 @@ label chapter_3:
     narrator "I take a step closer anyway."
     narrator "Something is carved into the bottom of the stone."
 
-    mc "Mina.."
+    mc "minju.."
 
     narrator "I wipe away the dust."
 
@@ -79,15 +79,15 @@ label chapter_3:
 
     mc "What does that mean?"
 
-    mina "Nothing."
+    minju "Nothing."
 
     mc "That's obviously not nothing."
 
-    mina "Let's go."
+    minju "Let's go."
 
-    mc "Mina."
+    mc "minju."
 
-    mina "Now."
+    minju "Now."
 
     narrator "She grabs my wrist."
     narrator "Her hand is shaking."

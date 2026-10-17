@@ -10,29 +10,29 @@ label chapter_four:
     with dissolve
 
     narrator "The hallway is empty."
-    narrator "Mina is still holding my wrist."
+    narrator "minju is still holding my wrist."
 
     mc "You knew what that meant."
 
-    mina "..."
+    minju "..."
 
     mc "The stone... you recognized it."
 
     narrator "She lets go."
 
-    mina "There was a girl."
-    mina "Three years ago."
-    mina "She was my friend."
-    mina "She disappeared.. in the auditorium... on Halloween."
-    mina "I left her alone for five minutes."
-    mina "She was gone when I came back."
+    minju "There was a girl."
+    minju "Three years ago."
+    minju "She was my friend."
+    minju "She disappeared.. in the auditorium... on Halloween."
+    minju "I left her alone for five minutes."
+    minju "She was gone when I came back."
     mc "Gone?"
-    mina "Yeah... gone."
+    minju "Yeah... gone."
     narrator "Silence."
     mc "And the promise?"
-    mina "I told her I wouldn't leave."
+    minju "I told her I wouldn't leave."
     narrator "She looks at the floor."
-    mina "I left."
+    minju "I left."
     narrator "A locker rattles somewhere down the hall."
     narrator "Neither of us move."
     mc "What do you want to do?"
@@ -40,24 +40,24 @@ label chapter_four:
 
     menu:
         "We should go back in.":
-            $ mina_affection += 1
+            $ minju_affection += 1
             mc "We should go back."
-            mina "..."
-            mina "Yeah."
-            mina "We should."
+            minju "..."
+            minju "Yeah."
+            minju "We should."
             jump ending_together
 
         "Leave it alone":
             mc "Maybe leave it alone."
-            mina "..."
-            mina "Maybe."
+            minju "..."
+            minju "Maybe."
             narrator "She doesn't sound convinced."
             narrator "Neither am I."
             jump ending_apart
 
         "Ask if she's okay.":
             mc "Are you okay?"
-            mina "No."
-            mina "But I will be."
+            minju "No."
+            minju "But I will be."
             narrator "She almost smiles."
             jump ending_peace

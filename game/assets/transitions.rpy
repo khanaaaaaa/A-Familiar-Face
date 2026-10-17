@@ -1,6 +1,6 @@
-default mina_affection = 0
+default minju_affection = 0
 default ren_affection = 0
-default replied_to_mina = False
+default replied_to_minju = False
 
 screen chapter_title(number, title):
     modal True
@@ -34,8 +34,8 @@ screen chapter_title(number, title):
 define nvl_mode = "phone"
 define MC_Name = "Me"
 
-define mina_nvl = Character(
-    "Mina",
+define minju_nvl = Character(
+    "minju",
     kind=nvl
 )
 

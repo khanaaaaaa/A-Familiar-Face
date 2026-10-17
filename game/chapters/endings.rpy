@@ -13,18 +13,18 @@ label ending_together:
     narrator "The auditorium is exactly as you left it."
     narrator "The gravestone is still standing."
 
-    mina "Hey."
-    mina "I'm sorry I left."
-    mina "I think about it every year."
+    minju "Hey."
+    minju "I'm sorry I left."
+    minju "I think about it every year."
 
     narrator "The lights flicker."
     narrator "Then the carving fades."
     narrator "Slowly."
     narrator "Until the stone is black."
     mc "..."
-    mina "..."
-    narrator "Mina exhales."
-    mina "Thank you for coming back with me."
+    minju "..."
+    narrator "minju exhales."
+    minju "Thank you for coming back with me."
     mc "Obviously."
     narrator "She laughs."
     
@@ -54,15 +54,15 @@ label ending_apart:
     narrator "We don't go back."
     narrator "The decorations come down the next day."
     narrator "The auditorium goes back to being just a room."
-    narrator "Mina is quieter than usual."
+    narrator "minju is quieter than usual."
 
-    mc "Mina."
+    mc "minju."
 
-    mina "Hm."
+    minju "Hm."
 
     mc "You okay?"
 
-    mina "Yeah."
+    minju "Yeah."
 
     narrator "She's not."
     narrator "I know that."
@@ -95,24 +95,24 @@ label ending_peace:
     with dissolve
 
     narrator "We stand there a little longer."
-    narrator "Then Mina straightens up."
+    narrator "Then minju straightens up."
 
-    mina "Come on."
+    minju "Come on."
 
     mc "Where?"
 
-    mina "Home."
+    minju "Home."
 
     narrator "We walk out together."
     narrator "The rain has stopped."
     narrator "The courtyard is wet and quiet."
     narrator "The paper moon is still hanging over the entrance."
 
-    mina "Next year, they'll put up different decorations."
+    minju "Next year, they'll put up different decorations."
 
     mc "Probably."
 
-    mina "Good."
+    minju "Good."
 
     narrator "She doesn't look back."
     narrator "Neither do I."
