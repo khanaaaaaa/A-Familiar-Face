@@ -12,11 +12,11 @@ label ending_together:
 
     narrator "The auditorium is exactly as you left it."
     narrator "The gravestone is still standing."
-
+    show minjuneutraltalk
     minju "Hey."
     minju "I'm sorry I left."
     minju "I think about it every year."
-
+    
     narrator "The lights flicker."
     narrator "Then the carving fades."
     narrator "Slowly."
