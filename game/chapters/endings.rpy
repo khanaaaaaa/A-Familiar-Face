@@ -7,23 +7,20 @@ label ending_together:
 
     pause 1.0
 
-    scene bg auditorium
-    with dissolve
-
     narrator "The auditorium is exactly as you left it."
     narrator "The gravestone is still standing."
-    show minjuneutraltalk
+    show minjuneutraltalk at center_char
     minju "Hey."
     minju "I'm sorry I left."
     minju "I think about it every year."
-    
+
     narrator "The lights flicker."
     narrator "Then the carving fades."
     narrator "Slowly."
     narrator "Until the stone is black."
     mc "..."
     minju "..."
-    narrator "minju exhales."
+    narrator "Minju exhales."
     minju "Thank you for coming back with me."
     mc "Obviously."
     narrator "She laughs."
@@ -47,9 +44,6 @@ label ending_apart:
     with fade
 
     pause 1.0
-
-    scene bg school
-    with dissolve
 
     narrator "We don't go back."
     narrator "The decorations come down the next day."
@@ -91,9 +85,6 @@ label ending_peace:
 
     pause 1.0
 
-    scene bg hallway
-    with dissolve
-
     narrator "We stand there a little longer."
     narrator "Then minju straightens up."
 
@@ -116,9 +107,6 @@ label ending_peace:
 
     narrator "She doesn't look back."
     narrator "Neither do I."
-
-    scene bg black
-    with fade
 
     pause 1.5
 
