@@ -1,6 +1,3 @@
-define nvl_mode = "phone"
-define MC_Name = "Me"
-
 init -1 python:
     phone_position_x = 0.3
     phone_position_y = 0.5
@@ -92,7 +89,7 @@ screen nvl_phonetext(dialogue):
                 text_align 0.5
                 italic True
                 size 28
-                slow_cps 0
+                slow 0
 
                 if d.what_id:
                     if d.current:
@@ -137,7 +134,7 @@ screen nvl_phonetext(dialogue):
                     text d.what:
                         pos (0, 0)
                         xsize 350
-                        slow_cps 0
+                        slow 0
 
                         if d.who == MC_Name:
                             color "#FFF"

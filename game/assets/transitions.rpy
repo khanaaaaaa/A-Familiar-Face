@@ -43,3 +43,19 @@ define mc_nvl = Character(
     "Me",
     kind=nvl
 )
+
+transform bg_fit:
+    size (1920, 1080)
+    xalign 0.5
+    yalign 0.5
+
+transform center_char:
+    xalign 0.5
+    yalign 1.0
+    zoom 1.5
+
+image bg bedroom = "images/bedroom.jpg"
+image bg auditorium = "images/auditorium.avif"
+image bg classroom = "images/classroom.avif"
+image bg hallway = "images/hallway.jpeg"
+image bg school = "images/school.jpg"

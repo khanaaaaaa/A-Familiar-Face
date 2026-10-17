@@ -7,7 +7,7 @@
 
     pause 1.0
 
-    scene bg school 
+    scene bg school at bg_fit
     with dissolve 
 
     "A school bell rings." 
@@ -143,9 +143,9 @@
             minju "Maybe."
             hide minjusmiletalk
             show minjusmilequiet at center_char
-            mc "minju."
+            mc "Minju."
             hide minjusmilequiet
-            show minjusmiletalk at center
+            show minjusmiletalk at center_char
             minju "You'll see."
             hide minjusmiletalk
             show minjusmilequiet at center_char
@@ -171,7 +171,7 @@
     minju "I'm serious."
     hide minjusmiletalk
     show minjusmilequiet at center_char
-    mc "minju."
+    mc "Minju."
     hide minjusmilequiet
     show minjusmiletalk at center_char
     minju "What?"
@@ -208,7 +208,7 @@
     minju "You'll see."
     hide minjusmiletalk
     narrator "She walks ahead."
-    narrator "I followe her."
+    narrator "I follow her."
     narrator "I don't notice the small piece of paper lying where she was standing."
     narrator "A Halloween flyer."
     narrator "Across the top, written in red ink:"

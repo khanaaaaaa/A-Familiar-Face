@@ -7,7 +7,7 @@ label chapter_2:
 
     pause 1.0
 
-    scene bg bedroom
+    scene bg bedroom at bg_fit
     with dissolve
 
     narrator "The first thing I notice when I wake up is the rain."
@@ -36,7 +36,7 @@ label chapter_2:
     minju_nvl "Good."
     mc_nvl "Why wouldn't I?"
     minju_nvl "You forgot yesterday."
-    mc_ncl "I did not."
+    mc_nvl "I did not."
     minju_nvl "You did."
     mc_nvl "What did I forget?"
     minju_nvl "Halloween."
@@ -60,7 +60,7 @@ label chapter_2:
 
     nvl clear
 
-    scene bg School
+    scene bg school at bg_fit
     with dissolve
 
     narrator "By the time I reach school, the rain has stopped."
@@ -199,7 +199,7 @@ label chapter_2:
             minju "No."
             minju "From behind me."
             hide minjuneutraltalk
-            show minjuneutalquiet at center_char
+            show minjuneutralquiet at center_char
             narrator "I look back."
             narrator "The hallway is empty."
             hide minjuneutralquiet

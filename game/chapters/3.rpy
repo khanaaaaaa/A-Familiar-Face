@@ -7,7 +7,7 @@ label chapter_3:
 
     pause 1.0
 
-    scene bg auditorium
+    scene bg auditorium at bg_fit
     with dissolve
 
     narrator "The auditorium is empty."
@@ -71,20 +71,22 @@ label chapter_3:
     mc "Okay."
     narrator "I take a step closer anyway."
     narrator "Something is carved into the bottom of the stone."
-    hide minjuneutralquiet
-    scene black
     mc "Minju.."
     narrator "I wipe away the dust."
     centered "{size=30}YOU PROMISED{/size}"
     pause 2.0
+    scene bg auditorium at bg_fit
+    with dissolve
+    show minjuneutraltalk at center_char
     mc "What does that mean?"
     minju "Nothing."
     mc "That's obviously not nothing."
     minju "Let's go."
-    mc "minju."
+    mc "Minju."
     minju "Now."
-    narrator "He grabs my wrist."
-    narrator "He hand is shaking."
+    hide minjuneutraltalk
+    narrator "She grabs my wrist."
+    narrator "Her hand is shaking."
 
     scene bg hallway
     with dissolve

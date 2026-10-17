@@ -6,7 +6,7 @@ label chapter_four:
 
     pause 1.0
 
-    scene bg hallway
+    scene bg hallway at bg_fit
     with dissolve
 
     narrator "The hallway is empty."
